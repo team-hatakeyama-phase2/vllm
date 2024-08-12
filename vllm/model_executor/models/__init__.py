@@ -76,7 +76,8 @@ _GENERATION_MODELS = {
     "Phi3SmallForCausalLM": ("phi3_small", "Phi3SmallForCausalLM"),
     "MedusaModel": ("medusa", "Medusa"),
     "MLPSpeculatorPreTrainedModel": ("mlp_speculator", "MLPSpeculator"),
-    "JambaForCausalLM": ("jamba", "JambaForCausalLM")
+    "JambaForCausalLM": ("jamba", "JambaForCausalLM"),
+    "TanukiForCausalLM": ("tanuki", "TanukiForCausalLM")
 }
 
 _EMBEDDING_MODELS = {
