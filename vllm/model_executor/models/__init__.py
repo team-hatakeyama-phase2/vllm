@@ -57,6 +57,7 @@ _GENERATION_MODELS = {
     "ArcticForCausalLM": ("arctic", "ArcticForCausalLM"),
     "XverseForCausalLM": ("xverse", "XverseForCausalLM"),
     "Phi3SmallForCausalLM": ("phi3_small", "Phi3SmallForCausalLM"),
+    "TanukiForCausalLM": ("tanuki", "TanukiForCausalLM"),
 }
 
 _EMBEDDING_MODELS = {
