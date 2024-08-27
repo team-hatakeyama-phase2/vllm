@@ -77,7 +77,8 @@ _GENERATION_MODELS = {
     "MedusaModel": ("medusa", "Medusa"),
     "MLPSpeculatorPreTrainedModel": ("mlp_speculator", "MLPSpeculator"),
     "JambaForCausalLM": ("jamba", "JambaForCausalLM"),
-    "TanukiForCausalLM": ("tanuki", "TanukiForCausalLM")
+    "TanukiForCausalLM": ("tanuki", "TanukiForCausalLM"),
+    "QuantTanukiForCausalLM": ("tanuki_quant", "TanukiForCausalLM"),
 }
 
 _EMBEDDING_MODELS = {

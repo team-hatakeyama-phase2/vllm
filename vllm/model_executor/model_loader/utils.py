@@ -28,6 +28,11 @@ def get_model_architecture(
             and "MixtralForCausalLM" in architectures):
         architectures = ["QuantMixtralForCausalLM"]
 
+    if (model_config.quantization is not None
+            and model_config.quantization != "fp8"
+            and "TanukiForCausalLM" in architectures):
+        architectures = ["QuantTanukiForCausalLM"]
+
     return ModelRegistry.resolve_model_cls(architectures)
 
 
